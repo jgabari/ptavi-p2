@@ -3,6 +3,7 @@
 
 import sys
 
+
 class Calculadora():
 
     def __init__(self, operando1, operando2):
@@ -14,6 +15,7 @@ class Calculadora():
 
     def resta(self):
         return self.operando1 - self.operando2
+
 
 if __name__ == "__main__":
     try:
