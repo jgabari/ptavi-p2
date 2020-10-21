@@ -29,3 +29,5 @@ for linea in lineas:
     else:
         sys.exit("Error: introduzca suma, resta, multiplica o divide")
     print(resultado)
+
+fich.close()
