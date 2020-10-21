@@ -4,6 +4,7 @@
 import sys
 import calcoo
 
+
 class CalculadoraHija(calcoo.Calculadora):
 
     def __init__(self, operando1, operando2):
@@ -18,6 +19,7 @@ class CalculadoraHija(calcoo.Calculadora):
             return self.operando1 / self.operando2
         except ZeroDivisionError:
             sys.exit("Division by zero is not allowed")
+
 
 if __name__ == "__main__":
     try:
