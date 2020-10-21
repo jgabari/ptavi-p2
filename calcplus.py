@@ -4,7 +4,8 @@
 import sys
 import calcoohija
 
-fich = open('fichero')
+
+fich = open(sys.argv[1])
 lineas = fich.readlines()
 for linea in lineas:
     lista = linea.split(',')
