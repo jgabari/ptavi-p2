@@ -5,7 +5,7 @@ import sys
 import calcoohija
 import csv
 
-with open('fichero') as csvfile:
+with open(sys.argv[1]) as csvfile:
     reader = csv.reader(csvfile)
     for linea in reader:
         operacion = linea[0]
